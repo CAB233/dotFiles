@@ -1,0 +1,10 @@
+[Unit]
+Description=Lightweight multi-protocol & multi-source command-line download utility.
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/aria2c
+
+[Install]
+WantedBy=default.target

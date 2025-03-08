@@ -1,0 +1,19 @@
+{
+  "colorscheme": "catppuccin-frappe-transparent",
+  "autosave": true,
+  "basename": true,
+  "tabstospaces": true,
+  "tabsize": 4,
+  "mkparents": true,
+  "hlsearch": true,
+  "savecursor": true,
+  "saveundo": true,
+  "scrollbar": true,
+  "literate": true,
+  "softwrap": true,
+  "statusformatl": " $(filename)",
+  "statusformatr": "行 $(line), 列 $(col)  空格: $(opt:tabsize)  $(opt:encoding)  $(opt:fileformat)  $(opt:filetype) ",
+  "*.json*": {
+    "tabsize": 2
+  }
+}
