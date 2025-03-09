@@ -11,7 +11,7 @@ format = '\[[$time]($style)\]'
 [username]
 style_user = 'bold green'
 style_root = 'bold red'
-format = '[$user]($style)'
+format = '[$user]($style)[$ssh_symbol](bold yellow)'
 
 [hostname]
 ssh_symbol = '\(ssh\)'
