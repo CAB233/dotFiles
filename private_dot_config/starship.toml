@@ -1,6 +1,97 @@
 "$schema" = 'https://starship.rs/config-schema.json'
 
 command_timeout = 2000
+format = """
+$hostname\
+$username\
+$localip\
+$shlvl\
+$singularity\
+$kubernetes\
+$directory\
+$vcsh\
+$fossil_branch\
+$fossil_metrics\
+$git_branch\
+$git_commit\
+$git_state\
+$git_metrics\
+$git_status\
+$hg_branch\
+$pijul_channel\
+$docker_context\
+$package\
+$c\
+$cmake\
+$cobol\
+$daml\
+$dart\
+$deno\
+$dotnet\
+$elixir\
+$elm\
+$erlang\
+$fennel\
+$gleam\
+$golang\
+$guix_shell\
+$haskell\
+$haxe\
+$helm\
+$java\
+$julia\
+$kotlin\
+$gradle\
+$lua\
+$nim\
+$nodejs\
+$ocaml\
+$opa\
+$perl\
+$php\
+$pulumi\
+$purescript\
+$python\
+$quarto\
+$raku\
+$rlang\
+$red\
+$ruby\
+$rust\
+$scala\
+$solidity\
+$swift\
+$terraform\
+$typst\
+$vlang\
+$vagrant\
+$zig\
+$buf\
+$nix_shell\
+$conda\
+$meson\
+$spack\
+$memory_usage\
+$aws\
+$gcloud\
+$openstack\
+$azure\
+$nats\
+$direnv\
+$env_var\
+$crystal\
+$custom\
+$sudo\
+$cmd_duration\
+$line_break\
+$jobs\
+$battery\
+$time\
+$status\
+$os\
+$container\
+$shell\
+$character"""
 
 [sudo]
 format = '\[[as $symbol]($style)\]'
@@ -11,11 +102,12 @@ format = '\[[$time]($style)\]'
 [username]
 style_user = 'bold green'
 style_root = 'bold red'
-format = '[$user]($style)'
+format = '[$user]($style) '
 
 [hostname]
+detect_env_vars = ['!TMUX', 'SSH_CONNECTION']
 ssh_symbol = '\(ssh\)'
-format = '[$ssh_symbol](bold yellow) '
+format = '[$ssh_symbol](bold yellow)'
 
 [aws]
 symbol = "  "
