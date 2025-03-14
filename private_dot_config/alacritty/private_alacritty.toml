@@ -22,10 +22,7 @@ save_to_clipboard = true
 style = { shape = "Beam", blinking = "Always" }
 
 [general]
-import = [
-    "~/.config/alacritty/github.toml"
-    #"~/.config/alacritty/catppuccin-frappe.toml"
-]
+import = [ "~/.config/alacritty/github.toml" ]
 
 [terminal]
 shell = { program = "/bin/fish",  args = ["-l"] }
