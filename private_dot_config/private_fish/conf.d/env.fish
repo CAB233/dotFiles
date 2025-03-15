@@ -44,6 +44,10 @@ x PYTHON_HISTORY            $XDG_STATE_HOME/python/history
 x WINEPREFIX                $XDG_DATA_HOME/wineprefixes/default
 x _JAVA_OPTIONS             -Djava.util.prefs.userRoot=$XDG_CONFIG_HOME/java
 
+# Terminal
+x TERM xterm-256color
+x COLORTERM truecolor
+
 # Use helix as default text editor
 x EDITOR micro
 x VISUAL micro
@@ -55,7 +59,6 @@ x MICRO_TRUECOLOR 1
 # https://wiki.archlinux.org/title/Fcitx5#Integration
 x XMODIFIERS @im=fcitx
 
-# ssh-agent
 # https://github.com/danhper/fish-ssh-agent/blob/f10d95775352931796fd17f54e6bf2f910163d1b/conf.d/fish-ssh-agent.fish#L2C20-L2C20
 x SSH_ENV $HOME/.ssh/environment
 
