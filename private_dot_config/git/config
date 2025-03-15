@@ -1,0 +1,23 @@
+[user]
+	email = yidaduizuoye@outlook.com
+	name = CAB233
+	signingkey = D43AB0BA625C5D89C734172262FFE3FEF4158CF1
+[safe]
+	directory = *
+[core]
+	editor = nano
+	autocrlf = input
+	pager = less -x1,5
+[color]
+	status = auto
+	diff = auto
+[push]
+	default = simple
+[log]
+	date = iso
+[commit]
+	gpgsign = true
+[init]
+	defaultBranch = main
+[credential]
+	helper = store
