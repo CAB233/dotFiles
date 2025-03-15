@@ -1,6 +1,6 @@
 [Appearance]
 BorderWhenActive=false
-ColorScheme=Github
+ColorScheme=snazzy
 Font=Monospace,12,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
 TabColor=48,48,48,0
 
@@ -9,6 +9,7 @@ CursorShape=1
 
 [General]
 Command=/usr/bin/fish
+Environment=
 Name=mykonsole
 Parent=FALLBACK/
 TerminalColumns=110
