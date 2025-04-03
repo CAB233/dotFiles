@@ -67,6 +67,3 @@ x GPG_TTY (tty)
 
 # https://wiki.archlinux.org/title/Uniform_look_for_Qt_and_GTK_applications#Consistent_file_dialog
 x GTK_USE_PORTAL 1
-
-# https://github.com/matinlotfali/KDE-Rounded-Corners/issues/149#issuecomment-2536638305
-x QT_SCALE_FACTOR_ROUNDING_POLICY RoundPreferFloor
