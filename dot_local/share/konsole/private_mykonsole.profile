@@ -8,8 +8,11 @@ TabColor=48,48,48,0
 CursorShape=1
 
 [General]
+AlternatingBars=1
 Command=/usr/bin/fish
 Environment=
+ErrorBackground=1
+ErrorBars=1
 Name=mykonsole
 Parent=FALLBACK/
 TerminalColumns=110
