@@ -1,11 +1,18 @@
 [Appearance]
 BorderWhenActive=false
 ColorScheme=snazzy
+EmojiFont=Noto Color Emoji,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
 Font=Monospace,12,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
 TabColor=48,48,48,0
+UseFontBrailleChararacters=false
+UseFontLineChararacters=false
+WordMode=false
 
 [Cursor Options]
 CursorShape=1
+
+[Encoding Options]
+DefaultEncoding=UTF-8
 
 [General]
 AlternatingBars=1
@@ -22,7 +29,7 @@ TerminalRows=32
 [Interaction Options]
 AutoCopySelectedText=true
 CopyTextAsHTML=false
-UnderlineLinksEnabled=false
+UnderlineLinksEnabled=true
 
 [Keyboard]
 KeyBindings=default
