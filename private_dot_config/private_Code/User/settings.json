@@ -15,7 +15,7 @@
     "terminal.integrated.defaultProfile.windows": "powershell",
     "terminal.integrated.defaultProfile.linux": "fish",
     "editor.minimap.enabled": false,
-    "editor.fontFamily": "'Maple Mono NF CN', 'Monospace'",
+    "editor.fontFamily": "'Monospace'",
     "editor.suggestSelection": "first",
     "editor.unicodeHighlight.nonBasicASCII": false,
     "editor.comments.insertSpace": false,
@@ -23,7 +23,7 @@
     "editor.cursorBlinking": "phase",
     "editor.formatOnPaste": true,
     "editor.find.autoFindInSelection": "multiline",
-    "editor.fontLigatures": true,
+    "editor.fontLigatures": false,
     "editor.unicodeHighlight.allowedLocales": {
         "zh-hans": true,
         "zh-hant": true
