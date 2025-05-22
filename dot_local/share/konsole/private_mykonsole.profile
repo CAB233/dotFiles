@@ -1,4 +1,6 @@
 [Appearance]
+AntiAliasFonts=true
+BoldIntense=true
 BorderWhenActive=false
 ColorScheme=snazzy
 EmojiFont=Noto Color Emoji,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
