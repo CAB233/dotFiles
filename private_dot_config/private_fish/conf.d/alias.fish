@@ -9,3 +9,4 @@ alias x 'set --global --export'
 alias m micro
 alias yay paru
 alias yarn 'yarn --use-yarnrc "$XDG_CONFIG_HOME/yarn/config"'
+alias ls 'eza --time-style long-iso --binary'
