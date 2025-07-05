@@ -33,8 +33,6 @@
     "files.insertFinalNewline": true,
     "files.eol": "\n",
     "files.simpleDialog.enable": true,
-    "files.trimFinalNewlines": true,
-    "files.trimTrailingWhitespace": true,
     "files.associations": {
         "**/fcitx5/config": "properties",
         "**/fcitx5/profile": "properties",
@@ -66,5 +64,6 @@
     "window.titleBarStyle": "native",
     "chat.commandCenter.enabled": false,
     "workbench.navigationControl.enabled": false,
-    "window.commandCenter": false
+    "window.commandCenter": false,
+    "editor.trimAutoWhitespace": false
 }
