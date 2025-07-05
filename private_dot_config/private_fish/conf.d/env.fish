@@ -43,6 +43,7 @@ x WGETRC                    $XDG_CONFIG_HOME/wgetrc
 x PYTHON_HISTORY            $XDG_STATE_HOME/python/history
 x WINEPREFIX                $XDG_DATA_HOME/wineprefixes/default
 x _JAVA_OPTIONS             -Djava.util.prefs.userRoot=$XDG_CONFIG_HOME/java
+x WINEPREFIX                $XDG_DATA_HOME/wineprefixes/default
 
 # Terminal
 x TERM xterm-256color
