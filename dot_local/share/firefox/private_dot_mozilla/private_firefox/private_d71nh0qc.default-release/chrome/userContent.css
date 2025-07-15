@@ -414,8 +414,7 @@
     }
 
     #inspector-breadcrumbs {
-        top: auto;
-        !important
+        top: auto !important;
     }
 
     #inspector-breadcrumbs-toolbar {
@@ -994,8 +993,7 @@
     #style-editor-chrome .devtools-invisible-splitter {
         border-radius: 10px 0 0 10px !important;
         background: color-mix(in srgb, #000 20%, -moz-Dialog) !important;
-        !important;
-        width: 10px;
+        width: 10px !important;
         margin-left: -10px !important;
         opacity: 100% !important;
         margin-bottom: 35px !important
