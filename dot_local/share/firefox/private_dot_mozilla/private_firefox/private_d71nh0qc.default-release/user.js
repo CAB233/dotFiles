@@ -222,10 +222,14 @@ user_pref("privacy.clearOnShutdown.downloads", true);
 /* 在末尾新建标签页 */
 user_pref("browser.tabs.insertAfterCurrent", false);
 
-/* Overrides */
+/* 内容阻止策略(例如 HTTP 与 HTTPS 混合时) */
 user_pref("browser.contentblocking.category", "standard");
 
+/* Forkserver */
 user_pref("dom.ipc.forkserver.enable", true);
+
+/* 新标签页打开书签 */
+user_pref("browser.tabs.loadBookmarksInTabs", true);
 
 /****************************************************************************
  * SECTION: SMOOTHFOX                                                       *
