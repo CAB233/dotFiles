@@ -44,26 +44,31 @@
         "prepare": "shellscript",
         "defines": "shellscript",
         "beyond": "shellscript",
-        "build": "shellscript"
+        "build": "shellscript",
+        "*.bu": "yaml",
+        "*.ign": "json"
     },
     "update.mode": "none",
     "update.showReleaseNotes": false,
     "telemetry.telemetryLevel": "off",
-    "[jsonc]": {
-        "editor.tabSize": 2,
-        "editor.quickSuggestions": {
-            "strings": true
-        },
-        "editor.suggest.insertMode": "replace"
-    },
-    "[nginx]": {
-        "editor.defaultFormatter": "ahmadalli.vscode-nginx-conf"
-    },
     "Lingma.cloudModelAutoTriggerGenerateLength": "disable",
     "terminal.integrated.fontLigatures.enabled": true,
     "window.titleBarStyle": "native",
     "chat.commandCenter.enabled": false,
     "workbench.navigationControl.enabled": false,
     "window.commandCenter": false,
-    "editor.trimAutoWhitespace": false
+    "editor.trimAutoWhitespace": false,
+    "[yaml]": {
+        "diffEditor.ignoreTrimWhitespace": true
+    },
+    "[css]": {
+        "editor.defaultFormatter": "vscode.css-language-features"
+    },
+    "[jsonc]": {
+        "editor.tabSize": 2,
+        "editor.quickSuggestions": {
+            "strings": true
+        },
+        "editor.suggest.insertMode": "replace",
+    },
 }
