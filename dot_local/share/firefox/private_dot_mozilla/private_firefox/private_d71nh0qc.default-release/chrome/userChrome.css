@@ -370,6 +370,10 @@
     -moz-context-properties: fill, stroke !important
 }
 
+.titlebar-button::before {
+    content: none !important
+}
+
 /*  Titlebar buttons  -  Minimize button  */
 .titlebar-min {
     fill: var(--toolbarbutton-icon-fill) !important;
