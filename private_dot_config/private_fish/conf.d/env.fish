@@ -44,6 +44,7 @@ x PYTHON_HISTORY            $XDG_STATE_HOME/python/history
 x WINEPREFIX                $XDG_DATA_HOME/wineprefixes/default
 x _JAVA_OPTIONS             -Djava.util.prefs.userRoot=$XDG_CONFIG_HOME/java
 x WINEPREFIX                $XDG_DATA_HOME/wineprefixes/default
+x PARALLEL_HOME             $XDG_CONFIG_HOME/parallel
 
 # Terminal
 x TERM xterm-256color
