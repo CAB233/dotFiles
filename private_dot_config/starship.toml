@@ -93,6 +93,10 @@ $container\
 $shell\
 $character"""
 
+#[character]
+#success_symbol = '[grub rescue >](bold white) '
+#error_symbol = '[grub rescue >](bold red) '
+
 [sudo]
 format = '\[[as $symbol]($style)\]'
 
