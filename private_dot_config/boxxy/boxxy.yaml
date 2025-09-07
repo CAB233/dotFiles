@@ -1,0 +1,4 @@
+rules:
+- name: "Redirect ~/.pki to ~/.cache/pki"
+  target: "~/.pki"
+  rewrite: "~/.cache/pki"
