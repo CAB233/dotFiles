@@ -187,6 +187,7 @@ symbol = " "
 format = '\[[$symbol$branch]($style)\]'
 
 [git_status]
+disabled = true
 format = '([\[$all_status$ahead_behind\]]($style))'
 
 [golang]
