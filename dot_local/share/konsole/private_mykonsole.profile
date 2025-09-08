@@ -5,10 +5,13 @@ BorderWhenActive=false
 ColorScheme=snazzy
 EmojiFont=Noto Color Emoji,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
 Font=Monospace,12,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+IgnoreWcWidth=false
 TabColor=48,48,48,0
 UseFontBrailleChararacters=false
-UseFontLineChararacters=false
-WordMode=false
+UseFontLineChararacters=true
+WordMode=true
+WordModeAscii=false
+WordModeAttr=false
 
 [Cursor Options]
 CursorShape=1
@@ -41,4 +44,6 @@ HighlightScrolledLines=false
 HistorySize=20000
 
 [Terminal Features]
+BidiLineLTR=false
+BidiRenderingEnabled=false
 BlinkingCursorEnabled=true
