@@ -47,7 +47,8 @@
         "build": "shellscript",
         "*.bu": "yaml",
         "*.ign": "json",
-        "postinst": "shellscript"
+        "postinst": "shellscript",
+        "spec": "shellscript"
     },
     "update.mode": "none",
     "update.showReleaseNotes": false,
@@ -73,6 +74,9 @@
         "editor.suggest.insertMode": "replace",
         "editor.defaultFormatter": "vscode.json-language-features",
     },
-    "deno.codeLens.implementations": true,
+    "[jsonnet]": {
+        "editor.tabSize": 2,
+    },
     "diffEditor.hideUnchangedRegions.enabled": true,
+    "terminal.integrated.stickyScroll.enabled": false,
 }
