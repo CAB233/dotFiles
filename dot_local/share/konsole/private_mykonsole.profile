@@ -7,14 +7,14 @@ EmojiFont=Noto Color Emoji,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
 Font=Monospace,12,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
 IgnoreWcWidth=false
 TabColor=48,48,48,0
-UseFontBrailleChararacters=false
-UseFontLineChararacters=true
+UseFontBrailleChararacters=true
+UseFontLineChararacters=false
 WordMode=true
 WordModeAscii=false
 WordModeAttr=false
 
 [Cursor Options]
-CursorShape=1
+CursorShape=0
 
 [Encoding Options]
 DefaultEncoding=UTF-8
@@ -27,6 +27,8 @@ ErrorBackground=1
 ErrorBars=1
 Name=mykonsole
 Parent=FALLBACK/
+SemanticUpDown=false
+TerminalCenter=false
 TerminalColumns=110
 TerminalMargin=1
 TerminalRows=32
@@ -34,16 +36,20 @@ TerminalRows=32
 [Interaction Options]
 AutoCopySelectedText=true
 CopyTextAsHTML=false
+UnderlineFilesEnabled=false
 UnderlineLinksEnabled=true
 
 [Keyboard]
 KeyBindings=default
 
 [Scrolling]
-HighlightScrolledLines=false
+HighlightScrolledLines=true
 HistorySize=20000
+MarkerSize=2
+SearchLineOpacity=95
 
 [Terminal Features]
-BidiLineLTR=false
-BidiRenderingEnabled=false
+BidiLineLTR=true
+BidiRenderingEnabled=true
 BlinkingCursorEnabled=true
+LineNumbers=0
