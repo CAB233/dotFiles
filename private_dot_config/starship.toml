@@ -23,8 +23,6 @@ $docker_context\
 $package\
 $c\
 $cmake\
-$cobol\
-$daml\
 $dart\
 $deno\
 $dotnet\
@@ -46,7 +44,6 @@ $lua\
 $nim\
 $nodejs\
 $ocaml\
-$opa\
 $perl\
 $php\
 $pulumi\
@@ -59,18 +56,15 @@ $red\
 $ruby\
 $rust\
 $scala\
-$solidity\
 $swift\
 $terraform\
 $typst\
-$vlang\
 $vagrant\
 $zig\
 $buf\
 $nix_shell\
 $conda\
 $meson\
-$spack\
 $memory_usage\
 $aws\
 $gcloud\
@@ -129,9 +123,6 @@ format = '\[[$symbol($version(-$name))]($style)\]'
 symbol = " "
 format = '\[[$symbol($version)]($style)\]'
 
-[cobol]
-format = '\[[$symbol($version)]($style)\]'
-
 [cmd_duration]
 disabled = true
 
@@ -141,9 +132,6 @@ format = '\[[$symbol$environment]($style)\]'
 
 [crystal]
 symbol = " "
-format = '\[[$symbol($version)]($style)\]'
-
-[daml]
 format = '\[[$symbol($version)]($style)\]'
 
 [dart]
@@ -187,8 +175,13 @@ symbol = " "
 format = '\[[$symbol$branch]($style)\]'
 
 [git_status]
-disabled = true
-format = '([\[$all_status$ahead_behind\]]($style))'
+format = '( [$conflicted](fg:red)[$untracked](fg:green)[$renamed](fg:yellow)[$modified](fg:yellow)[$deleted](fg:red)[$ahead_behind ]($style))'
+style = 'blue'
+conflicted = "≄ "
+untracked = " $count "
+modified = " $count "
+renamed = " $count "
+deleted = " $count "
 
 [golang]
 symbol = " "
@@ -260,9 +253,6 @@ format = '\[[$symbol($version)]($style)\]'
 symbol = " "
 format = '\[[$symbol($version)(\($switch_indicator$switch_name\))]($style)\]'
 
-[opa]
-format = '\[[$symbol($version)]($style)\]'
-
 [openstack]
 format = '\[[$symbol$cloud(\($project\))]($style)\]'
 
@@ -313,9 +303,6 @@ format = '\[[$symbol($version)]($style)\]'
 symbol = " "
 format = '\[[$symbol($version)]($style)\]'
 
-[spack]
-format = '\[[$symbol$environment]($style)\]'
-
 [swift]
 symbol = " "
 format = '\[[$symbol($version)]($style)\]'
@@ -326,12 +313,6 @@ format = '\[[$symbol$workspace]($style)\]'
 [vagrant]
 format = '\[[$symbol($version)]($style)\]'
 
-[vlang]
-format = '\[[$symbol($version)]($style)\]'
-
 [zig]
 symbol = " "
-format = '\[[$symbol($version)]($style)\]'
-
-[solidity]
 format = '\[[$symbol($version)]($style)\]'
