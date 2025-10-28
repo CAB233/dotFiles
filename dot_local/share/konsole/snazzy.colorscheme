@@ -1,20 +1,20 @@
 [Background]
-Color=40,42,56
+Color=44,46,52
 
 [BackgroundFaint]
-Color=40,42,56
+Color=44,46,52
 
 [BackgroundIntense]
-Color=40,42,56
+Color=44,46,52
 
 [Color0]
-Color=40,42,56
+Color=65,69,80
 
 [Color0Faint]
-Color=40,42,56
+Color=65,69,80
 
 [Color0Intense]
-Color=104,104,104
+Color=65,69,80
 
 [Color1]
 Color=255,92,87
@@ -90,11 +90,11 @@ Color=239,240,235
 
 [General]
 Anchor=0.5,0.5
-Blur=true
+Blur=false
 ColorRandomization=false
 Description=snazzy
 FillStyle=Tile
-Opacity=0.8
+Opacity=1
 Wallpaper=
 WallpaperFlipType=NoFlip
 WallpaperOpacity=1
