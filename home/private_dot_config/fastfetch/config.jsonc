@@ -35,8 +35,7 @@
     },
     {
       "type": "packages",
-      "key": "{#separator}│  {#keys}󰏖 Packages",
-      "format": "{all}"
+      "key": "{#separator}│  {#keys}󰏖 Packages"
     },
     {
       "type": "custom",
