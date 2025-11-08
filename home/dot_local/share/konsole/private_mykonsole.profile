@@ -5,13 +5,14 @@ BorderWhenActive=false
 ColorScheme=snazzy
 EmojiFont=Noto Color Emoji,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
 Font=Monospace,12,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
-IgnoreWcWidth=false
+IgnoreWcWidth=true
 TabColor=48,48,48,0
 UseFontBrailleChararacters=true
 UseFontLineChararacters=false
-WordMode=true
-WordModeAscii=false
+WordMode=false
+WordModeAscii=true
 WordModeAttr=false
+WordModeBrahmic=false
 
 [Cursor Options]
 CursorShape=0
